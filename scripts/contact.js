@@ -13,7 +13,7 @@ function submitpage() {
     contactPage.innerHTML = '';
     const text = document.createElement("p");
     text.innerHTML = "Thank you for your message!";
-    text.style.textAlign = "center"
+    text.style.textAlign = "center";
     text.style.fontSize = '24px';
     contactPage.append(text);
 }
